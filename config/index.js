@@ -1,7 +1,7 @@
 const path = require("path");
 
 const config = {
-  projectName: "myApp",
+  projectName: "taro3-demo",
   date: "2021-11-26",
   designWidth: 375,
   deviceRatio: {
@@ -65,8 +65,5 @@ const config = {
 };
 
 module.exports = function(merge) {
-  if (process.env.NODE_ENV === "development") {
-    return merge({}, config, require("./dev"));
-  }
-  return merge({}, config, require("./prod"));
+  return merge({}, config, require(`./${process.env.NODE_ENV}`));
 };

@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "myApp",
+  "projectname": "taro3-demo",
   "description": "allen-nutui-demo",
   "appid": "touristappid",
   "setting": {
