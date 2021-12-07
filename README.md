@@ -31,6 +31,4 @@ npm i
 
 ## Development - 开发
 
-## Changelog - 更新日志
-- 2121.11.29 初始化项目结构
 ## FAQ - 常见问题
