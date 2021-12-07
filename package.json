@@ -48,7 +48,8 @@
     "tsc": "vue-tsc --noEmit --skipLibCheck",
     "lint": "eslint --ext .vue --ext .js --ext .ts src/ --fix",
     "prepare": "husky install",
-    "log": "standard-version"
+    "log": "standard-version",
+    "commit": "git-cz"
   },
   "browserslist": [
     "last 3 versions",
@@ -94,9 +95,19 @@
     "vue-loader": "^16.0.0-beta.8",
     "vue-tsc": "^0.29.3"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
     }
   }
 }
