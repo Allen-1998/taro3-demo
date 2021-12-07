@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/runninguo/taro3-demo/compare/v1.1.0...v1.2.0) (2021-12-07)
+
+
+### Features
+
+* changelog ([805a7ea](https://github.com/runninguo/taro3-demo/commit/805a7eaf9ebf90708fe81ae5344cd31e1ed168c7))
+* changelog配置项优化 ([6372a56](https://github.com/runninguo/taro3-demo/commit/6372a56efb84d158e184dcb85280eab8d587963c))
+
 ## 1.1.0 (2021-12-07)
 
 
