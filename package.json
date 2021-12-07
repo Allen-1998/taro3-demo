@@ -1,6 +1,6 @@
 {
   "name": "taro3-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "allen-nutui-demo",
   "templateInfo": {
@@ -47,7 +47,8 @@
     "prod:quickapp": "npm run build:quickapp -- --watch prod",
     "tsc": "vue-tsc --noEmit --skipLibCheck",
     "lint": "eslint --ext .vue --ext .js --ext .ts src/ --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "log": "standard-version"
   },
   "browserslist": [
     "last 3 versions",
@@ -87,6 +88,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
     "husky": "^7.0.4",
+    "standard-version": "^9.3.2",
     "stylelint": "9.3.0",
     "typescript": "^4.1.0",
     "vue-loader": "^16.0.0-beta.8",
