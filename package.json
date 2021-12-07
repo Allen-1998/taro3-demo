@@ -49,7 +49,7 @@
     "lint": "eslint --ext .vue --ext .js --ext .ts src/ --fix",
     "prepare": "husky install",
     "log": "standard-version",
-    "commit": "git-cz"
+    "commit": "git add . && git-cz"
   },
   "browserslist": [
     "last 3 versions",
@@ -107,7 +107,8 @@
   },
   "standard-version": {
     "skip": {
-      "changelog": true
+      "changelog": false,
+      "tag": true
     }
   }
 }
