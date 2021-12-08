@@ -5,7 +5,7 @@ module.exports = {
   maxMessageLength: 64,
   minMessageLength: 3,
   // questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
-  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'lerna'],
+  questions: ['type', 'subject', 'lerna'],
   scopes: [],
   types: {
     feat: {
