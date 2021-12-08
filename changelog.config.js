@@ -1,30 +1,16 @@
 module.exports = {
   disableEmoji: false,
   format: '{type}{scope}: {emoji}{subject}',
-  list: ['test', 'feat', 'fix', 'chore', 'docs', 'refactor', 'style', 'ci', 'perf'],
+  list: ['feat', 'fix', 'test', 'docs', 'style', 'ci', 'perf', 'refactor', 'chore'],
   maxMessageLength: 64,
   minMessageLength: 3,
-  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
+  // questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
+  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'lerna'],
   scopes: [],
   types: {
-    chore: {
-      description: '构建过程或辅助工具更改',
-      emoji: '🤖',
-      value: 'chore',
-    },
-    ci: {
-      description: 'CI 相关的改变',
-      emoji: '🎡',
-      value: 'ci',
-    },
-    docs: {
-      description: '只修改了文档',
-      emoji: '✏️',
-      value: 'docs',
-    },
     feat: {
-      description: '一个新功能',
-      emoji: '🎸',
+      description: '新功能',
+      emoji: '✨',
       value: 'feat',
     },
     fix: {
@@ -32,30 +18,45 @@ module.exports = {
       emoji: '🐛',
       value: 'fix',
     },
+    test: {
+      description: '测试',
+      emoji: '✅',
+      value: 'test',
+    },
+    docs: {
+      description: '文档',
+      emoji: '✏️ ',
+      value: 'docs',
+    },
+    style: {
+      description: '风格',
+      emoji: '💄',
+      value: 'style',
+    },
+    ci: {
+      description: 'CI 配置',
+      emoji: '👷',
+      value: 'ci',
+    },
     perf: {
-      description: '改进性能的代码修改',
+      description: '性能优化',
       emoji: '⚡️',
       value: 'perf',
     },
     refactor: {
-      description: '既不修复故障也不增加新功能的代码修改',
-      emoji: '💡',
+      description: '代码重构',
+      emoji: '♻️',
       value: 'refactor',
     },
+    chore: {
+      description: '构建/工程依赖/工具',
+      emoji: '🚀',
+      value: 'chore',
+    },
     release: {
-      description: '创建发布提交',
+      description: '发布',
       emoji: '🏹',
       value: 'release',
-    },
-    style: {
-      description: '仅仅是代码格式/风格的修改',
-      emoji: '💄',
-      value: 'style',
-    },
-    test: {
-      description: '添加缺失的测试',
-      emoji: '💍',
-      value: 'test',
     },
   },
 }
