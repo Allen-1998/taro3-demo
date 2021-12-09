@@ -1,3 +1,5 @@
+//配置项见官方文档 https://github.com/streamich/git-cz
+
 module.exports = {
   disableEmoji: false,
   format: '{type}{scope}: {emoji}{subject}',
@@ -5,7 +7,7 @@ module.exports = {
   maxMessageLength: 64,
   minMessageLength: 2,
   // questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
-  questions: ['type', 'subject', 'lerna'],
+  questions: ['type', 'subject'],
   scopes: [],
   types: {
     feat: {

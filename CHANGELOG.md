@@ -1,5 +1,18 @@
 # xxx系统 
 ## 更新历史
+### [1.4.1](https://github.com/runninguo/taro3-demo/compare/v1.4.0...v1.4.1) (2021-12-08)
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* 🚀 test ([1e3c484](http://git项目地址/tree/1e3c48482d4b60c2dd7f477b21c3f05e99b37bc5))
+
+
+### ✅ Tests | 测试
+
+* ✅ commit lint ([1b4090e](http://git项目地址/tree/1b4090e01f8fce2998a5c9df176142cc3b5ebb1f))
+* ✅ cz ([030c5a6](http://git项目地址/tree/030c5a6f780c836330a231d7d613f61106d2f043))
+
 ## [1.4.0](https://github.com/runninguo/taro3-demo/compare/v1.3.0...v1.4.0) (2021-12-08)
 
 
