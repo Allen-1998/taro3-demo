@@ -38,9 +38,9 @@ function handleClick(type, msg, cover = false) {
 <style lang="scss">
 .index {
   margin-top: 200px;
+  text-align: center;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 </style>

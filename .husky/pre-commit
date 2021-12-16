@@ -4,6 +4,8 @@
 # lint1
 echo "---格式化检查开始---"
 npm run lint
+
+npm run style
 echo "---格式化检查结束---"
 # 检查ts
 echo "---ts检查开始---"
