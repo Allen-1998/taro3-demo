@@ -1,5 +1,18 @@
-# xxx系统 
+# taro-demo 
 ## 更新历史
+## [1.5.0](https://github.com/runninguo/taro3-demo/compare/v1.4.2...v1.5.0) (2021-12-16)
+
+
+### ✅ Tests | 测试
+
+* ✅ test ([f140a37](http://git项目地址/tree/f140a37a6c5669b44fde6326a02f0fdb17661440))
+
+
+### ✨ Features | 新功能
+
+* ✨ test ([37ea0b0](http://git项目地址/tree/37ea0b042f7bdb31f22fbb934869a8aa06028681))
+* ✨ test ([561b854](http://git项目地址/tree/561b8549c0368fd2948f412b8cf3872d72d98058))
+
 ### [1.4.2](https://github.com/runninguo/taro3-demo/compare/v1.4.0...v1.4.2) (2021-12-09)
 
 
