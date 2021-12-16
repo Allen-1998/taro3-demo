@@ -1,5 +1,5 @@
 module.exports = {
-  header: '# xxx系统 \n## 更新历史',
+  header: '# taro-demo \n## 更新历史',
   commitUrlFormat: 'http://git项目地址/tree/{{hash}}',
   issueUrlFormat: 'http://gitissu地址{{id}}',
   types: [

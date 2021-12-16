@@ -99,7 +99,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "git-cz"
+      "path": "/src/git-cz/cli.js"
     }
   }
 }
