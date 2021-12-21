@@ -1,6 +1,6 @@
 module.exports = {
-  extends: 'stylelint-config-standard',
-  plugins: ['stylelint-order'],
+  extends: ['stylelint-config-standard'],
+  plugins: ['stylelint-order', 'stylelint-scss'],
   rules: {
     'alpha-value-notation': 'number',
     'at-rule-empty-line-before': 'never',
