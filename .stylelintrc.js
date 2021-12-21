@@ -1,7 +1,18 @@
 module.exports = {
   extends: ['stylelint-config-standard'],
   plugins: ['stylelint-order', 'stylelint-scss'],
+  overrides: [
+    {
+      files: ['**/*.scss'],
+      customSyntax: 'postcss-scss',
+    },
+    {
+      files: ['*.html', '**/*.{html,vue}'],
+      customSyntax: 'postcss-html',
+    },
+  ],
   rules: {
+    indentation: 2,
     'alpha-value-notation': 'number',
     'at-rule-empty-line-before': 'never',
     'at-rule-no-unknown': [
@@ -28,7 +39,6 @@ module.exports = {
     'declaration-colon-newline-after': null,
     'declaration-empty-line-before': 'never',
     'function-linear-gradient-no-nonstandard-direction': null,
-    // indentation: "tab",
     'no-descending-specificity': null,
     'no-empty-source': null,
     'no-missing-end-of-source-newline': null,
